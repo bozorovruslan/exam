@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1440px; 
+}
+.nav_box{
+    display: flex;
+    
+}
+.ul_child{
+    display: flex ; 
+
+}
+
+.position{
+    position: sticky ;
+}
+.li1{
+    margin: 30px 0px 31px 112px;
+}
+.li2{
+    margin: 32px 0px 33px 50px;
+}
+.li3{
+    margin: 32px 0px 33px 30px;
+}
+.li4{
+    margin: 24px 112px 24px 527px;
+    padding: 12px 24px 12px 24px;
+    background-color: #101010;
+    color: white;
+  
+}
+.li4:hover{
+    background-color: #ffffff;
+    color: #1aab7b;
+}
+.li4:active{
+     background-color: #1aab7b;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.div_parent{
+    
+ 
+    margin: 91px 0px 0px 112px;
+}
+.div_box{
+    width: 450px;
+    height: 234px;
+    line-height: 78.4px;
+    font-weight: 700;
+    font:  Plus Jakarta Sans;
+    padding: 0px 0px 0px 0px;
+}
+.strong1{
+    font-size: 56px;
+}
+.p1{
+    font:  Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.div_parent{
+    display: flex;
+}
+.div1{
+    margin: 40px 112px 156px 74px;
+    padding: 0px 80px 0px 0px;
+
+}
+.ul_child :hover{
+  background-color: #ffffff;
+    color: #1aab7b;
+}
+.a1{
+    width: 168px;
+    height: 59px;
+    border-radius: 6px;
+    padding: 20px 40px 20px 40px;
+    background-color: #1AAB7B;
+    color: white ;
+}
+.div_parent1{
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F4F6;
+    margin: ;
+}
+.div_row{
+    width: 250px;
+    /* height: 200px; */
+    margin: 32px 0px 0px 112px;
+    border-radius: 10px;
+   border: 384px 358px;
+   border-color: #524d4d;
+    
+    
+}
+.h2{
+    margin: 50px 528px 0px 529px;
+}
+.div_row:hover{
+    background-color: #1AAB7B;
+}
+.imgg{
+    position: relative;
+}
+.div_parent2{
+    display: flex;
+    width: 1440px;
+    flex-wrap: wrap;
+}
+.div_row3{
+    width: 400px;
+    margin: 180px 0px 0px 112px;
+
+}
+.div_row4{
+    margin: 100px 0px 0px 112px;
+    width: 488px;
+    height: 390px;
+    border-radius: 6px;
+}
+.r1{
+    margin: 100px 0px 0px 550px;
+}
+.p3{
+    margin: 50px 0px 0px 560px;
+    width: 500px;
+}
+.hw{
+    margin: 50px 0px 0px 90px;
+}
+.form{
+    width: 1008px;
+    height: 515px;
+    background-color: #F2F4F6;
+    margin: 50px 0px 0px 216px;
+}
+input,
+select {
+  display: block;
+  border: none;
+  width: 350px;
+  height: 50px;
+  background: #f2f4f6;
+  border-bottom: 2px solid#ccc;
+  padding: 15px;
+  color: #000000;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #f2f4f6;
+  font-size: 18px;
+}
+.submit {
+  width: 180px;
+  height: 59px;
+  border: 2px solid #1aab7b;
+  background: #1aab7b;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.submit:hover {
+  background-color: #ffffff;
+  color: #1aab7b;
+}
+.submit:active {
+  background-color: #1aab7b;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.footer {
+    width: 1440px;
+    background-color: #131212;
+    height: 552px;
+  }
+  .footer-div {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-div-div1 {
+    width: 397px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-div-div1 div p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.2px;
+  }
+  .footer-div-div1 ul li a {
+    color: #a1a8b7;
+    font-size: 18px;
+    line-height: 37px;
+  }
+  .footer-div-div2 {
+    width: 280px;
+  }
+  .footer-div-div2 strong {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 25.2px;
+  }
+  .footer-div-div2 p {
+    color: #a1a8b7;
+    font-size: 18px;
+    line-height: 37px;
+  }
+  .footer-div-div2-div ul {
+    display: flex;
+    gap: 40px;
+    padding-top: 34px;
+  }
+  .last-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .last-div2 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  .footer-div-div1 div ul li:hover a {
+    color: #1aab7b;
+  }
+  .footer-div-div1 div ul li:active a {
+    color: #1aab7b;
+    opacity: 0.5;
+  }
+
+
+
+    
+
+
+    
+
